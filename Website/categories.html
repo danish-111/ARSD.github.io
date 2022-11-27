@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Categories | ARSD</title>
+        <meta name="description" content="Categories">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--         CSS DEFINED WITHIN HTML FILE SINCE ONLY REQUIRED SPECIFICALLY FOR THIS PAGE
+ -->        <style type="text/css">
+            body{
+                background-color: #BBDCFF;
+
+            }
+
+            .container{
+                padding: 300px 70px 100px 70px;
+            }
+
+            .container{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(360px, auto));
+                align-items: center;
+                gap: 2rem;
+                text-align: center;
+                padding-top: 100px;
+            }
+
+            .box{
+                padding: 20px 20px 10px 20px;
+                background: transparent;
+                background-color: #BBDCFF;
+                box-shadow: 5px 30px 57px #012a4aff;
+                border-radius: 25px;
+                position: relative;
+                transition: all .35s ease;
+            }
+            .box img{
+                width: 100%;
+                height: auto;
+                border-radius: 50px;
+            }
+            .box h4{
+                font-size: 18px;
+                letter-spacing: 1px;
+                margin-bottom: 8px;
+            }
+            .box:hover{
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+
+            h1{
+                position: relative;
+                padding: 50px;
+                color: #012a4aff;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-weight: 800;
+                letter-spacing: 1px;
+                font-size: 72px;
+            }
+
+            h3{
+                padding: 0 0 0 0;
+                color: #012a4aff;
+                text-transform: uppercase;
+                font-weight: 400;
+                letter-spacing: 1px;
+                font-size: 24px;
+            }
+        </style>
+<!--         Importing stylesheets
+ -->        <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="master.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+
+
+    <body>
+        <header>
+            <h2><a href="index.html" class="logo">ARSD</a></h2>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li class="dropdown"><a href="categories.html"><span>Shop</span></a>
+                    </li>
+                    <li><a href="login.html">Sign Out</a></li>
+                    <li><a href="cart.html" style="font-size: 18px">Checkout | <i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <center><h1 id="heading">Choose any category!</h1></center>
+        <marquee direction="right" scrollamount="15"><h3 id="sale">First 100 people to see this website get lots of love!</h1></marquee>
+        <div class="container">
+            <div class="box"><a href="electronics.html">
+                <img src="images/tech.jpg"></a>
+                <h4>Electronics</h4>
+            </div>
+            <div class="box"><a href="fashion.html">
+                <img src="images/fashion.jpg"></a>
+                <h4>Fashion</h4>
+            </div>
+            <div class="box"><a href="movies.html">
+                <img src="images/movies.jpg"></a>
+                <h4>Movies and Television</h4>
+            </div>
+            <div class="box"><a href="furniture.html">
+                <img src="images/furniture.jpg"></a>
+                <h4>Furniture</h4>
+            </div>
+            <div class="box"><a href="kitchen.html">
+                <img src="images/kitchen.jpg"></a>
+                <h4>Kitchen</h4>
+            </div>
+            <div class="box"><a href="videogames.html">
+                <img src="images/games.jpg"></a>
+                <h4>Video Games</h4>
+            </div>
+        </div>
+        <footer>
+            <div class="social-media">
+                <a href="mailto:i221170@nu.edu.pk"><i class="fa-solid fa-envelope"></i></a>
+                <a href="arsd.github.io"><i class="fab fa-github"></i></a>
+                <a href="tel:+920342069420"><i class="fa-solid fa-phone"></i></a>
+            </div>
+        </footer>
+    </body>
+</html>

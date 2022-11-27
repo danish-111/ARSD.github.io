@@ -1,0 +1,61 @@
+/* Separate CSS for Products Page since requirements are specific for those pages
+ */
+ /* All categories use this CSS since the style is same for each  */
+ .box {
+	display: flex;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	background-color: #BBDCFF;
+	border-radius: 20px;
+	box-shadow: 5px 30px 57px #012a4aff;
+}
+
+.picture{
+	width: 200px;
+	height: 200px;
+}
+
+.image {
+	flex: 0.15;
+	padding-top: 30px;
+	padding-left: 50px;
+	margin: auto;
+}
+
+.details {
+	flex: 0.80;
+	padding-left: 75px;
+	padding-top: 50px;
+	font-size: 24px;
+}
+
+.price {
+	flex: 0.15;
+	padding-top:60px;
+	padding-left: 75px;
+	padding-bottom: 50px;
+	padding-right: 75px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.addcart{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 150px;
+	background: #2a6f97ff;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+
+.addcart:hover
+{
+	cursor: pointer;
+	background: #89c2d9ff;
+	color: #000;
+}
